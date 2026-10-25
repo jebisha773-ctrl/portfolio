@@ -1,55 +1,145 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mangala Jebisha P | Data Analyst</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Portfolio of Mangala Jebisha P, aspiring Data Analyst skilled in Excel, SQL, Python and Power BI.">
+
+    <title>Mangala Jebisha P | Data Analyst</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-lg">
-    <div class="container">
-      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-          <li class="nav-item"><a class="nav-link" href="project.html">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
-  <main class="container my-auto py-5">
-    <div class="row align-items-center gy-5">
-      <div class="col-lg-7">
-        <h1 class="hero-title">Mangala Jebisha P</h1>
-        <br>
-        <br>
-        <p class="hero-desc">
-          Aspiring Data Analyst skilled in Excel, SQL, Python, and Power BI. Experienced in data cleaning, exploratory data analysis, database querying, and creating interactive dashboards.
-        </p>
-        <div class="d-flex gap-3">
-          <a href="project.html" class="btn-primary-custom">View Projects</a>
-          <a href="resume.html" class="btn-outline-custom">View Resume</a>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                JEBISHA
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarMenu"
+                    aria-controls="navbarMenu"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="experience.html">Experience</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
         </div>
-      </div>
-      <div class="col-lg-5 d-flex justify-content-center">
-        <div class="img-container">
-          <img src="images/pic2.jpg" alt="Mangala Jebisha P" class="profile-img" onerror="this.onerror=null; this.src='https://placehold.co/280x280/8A8F7A/FFFFFF?text=Photo+Not+Found';">
+    </nav>
+
+
+    <!-- Full-Screen Hero Section -->
+    <main class="home-section">
+
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+
+                <!-- Professional Introduction -->
+                <div class="col-lg-7 home-content">
+
+                    <p class="welcome-text">
+                        ASPIRING DATA ANALYST
+                    </p>
+
+                    <h1>
+                        Mangala Jebisha P
+                    </h1>
+
+                    <h2>Turning Data into Meaningful Insights</h2>
+
+                    <p class="home-description">
+                        MCA student with Data Analytics internship experience,
+                        skilled in Excel, SQL, Python, and Power BI. Interested
+                        in data analysis, visualization, and dashboard
+                        development to support data-driven decisions.
+                    </p>
+
+                    <div class="home-buttons">
+
+                        <a href="projects.html" class="btn btn-primary">
+                            View Projects
+                        </a>
+
+                        <a href="documents/portfolio-resume.pdf"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn btn-outline-light">
+                            View Resume
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Profile Photo -->
+                <div class="col-lg-4 text-center home-photo-container">
+
+                    <img src="images/profile.jpeg"
+                         alt="Mangala Jebisha P, Data Analyst"
+                         class="home-image">
+
+                </div>
+
+            </div>
         </div>
-      </div>
-    </div>
-  </main>
 
-  <footer class="text-center">
-    <p class="m-0">&copy; 2026 Mangala Jebisha P. All rights reserved.</p>
-  </footer>
+    </main>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>© 2026 Mangala Jebisha P</p>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap Mobile Navigation -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
